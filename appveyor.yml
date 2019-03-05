@@ -67,8 +67,8 @@ on_finish:
     cat C:\projects\boostunittest2\ConvertedReport.xml
 
 
-    "SET PATH=C:\\Python37;C:\\Python37\\Scripts;%PATH%"
+    "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
 
-    pip install codecov
+    # pip install codecov
 
-    codecov -f .\ConvertedReport.xml -X gcov
+    # codecov -f .\ConvertedReport.xml -X gcov
